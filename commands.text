@@ -1,0 +1,4 @@
+Open command prompt
+Go to project path
+mvn clean install
+ 
