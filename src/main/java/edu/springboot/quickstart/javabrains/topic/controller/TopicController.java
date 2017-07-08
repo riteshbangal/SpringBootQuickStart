@@ -13,7 +13,7 @@ import edu.springboot.quickstart.javabrains.topic.bean.Topic;
 import edu.springboot.quickstart.javabrains.topic.service.TopicPersistentService;
 
 @RestController
-public class TopicTransientController {
+public class TopicController {
 
 	@Autowired
 	//private TopicTransientService topicService;

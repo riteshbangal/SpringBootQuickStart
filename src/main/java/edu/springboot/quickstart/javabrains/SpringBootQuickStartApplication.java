@@ -1,4 +1,4 @@
-package edu.springboot.quickstart.javabrains.topic;
+package edu.springboot.quickstart.javabrains;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
