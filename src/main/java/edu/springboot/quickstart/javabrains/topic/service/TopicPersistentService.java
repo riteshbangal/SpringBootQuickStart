@@ -1,12 +1,13 @@
-package edu.springboot.quickstart.javabrains.topicspoc.service;
+package edu.springboot.quickstart.javabrains.topic.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import edu.springboot.quickstart.javabrains.topicspoc.bean.Topic;
-import edu.springboot.quickstart.javabrains.topicspoc.repository.TopicRepository;
+import edu.springboot.quickstart.javabrains.topic.bean.Topic;
+import edu.springboot.quickstart.javabrains.topic.repository.TopicRepository;
 
 @Service
 public class TopicPersistentService {
@@ -15,7 +16,14 @@ public class TopicPersistentService {
 	TopicRepository topicRepository;
 
 	public List<Topic> getAllTopics() {
-		return (List<Topic>) topicRepository.findAll();
+		
+		// Here if we return findAll directly with type casting, it also work.
+		// i.e. ---> return (List<Topic>) topicRepository.findAll()
+		
+		List<Topic> topics = new ArrayList<>();
+		topicRepository.findAll()
+			.forEach(topics::add);
+		return topics;
 	}
 	
 	public Topic getTopicById(String id) {

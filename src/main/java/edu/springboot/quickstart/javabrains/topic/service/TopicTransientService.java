@@ -1,4 +1,4 @@
-package edu.springboot.quickstart.javabrains.topicspoc.service;
+package edu.springboot.quickstart.javabrains.topic.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import edu.springboot.quickstart.javabrains.topicspoc.bean.Topic;
+import edu.springboot.quickstart.javabrains.topic.bean.Topic;
 
 @Service
 public class TopicTransientService {

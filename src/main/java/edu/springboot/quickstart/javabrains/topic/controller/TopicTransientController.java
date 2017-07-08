@@ -1,4 +1,4 @@
-package edu.springboot.quickstart.javabrains.topicspoc.controller;
+package edu.springboot.quickstart.javabrains.topic.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import edu.springboot.quickstart.javabrains.topicspoc.bean.Topic;
-import edu.springboot.quickstart.javabrains.topicspoc.service.TopicPersistentService;
+import edu.springboot.quickstart.javabrains.topic.bean.Topic;
+import edu.springboot.quickstart.javabrains.topic.service.TopicPersistentService;
 
 @RestController
 public class TopicTransientController {

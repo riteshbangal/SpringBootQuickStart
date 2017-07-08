@@ -1,4 +1,4 @@
-package edu.springboot.quickstart.javabrains.topicspoc.bean;
+package edu.springboot.quickstart.javabrains.topic.bean;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
