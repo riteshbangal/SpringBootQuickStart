@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-Sun Jul 09 09:38:15 IST 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015d-2588-98b3-00000d7977a8 
-on database directory memory:D:\Geeks\sts_workspace\SpringBootQuickStart\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
-Loaded from file:/C:/Users/rbang4/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+Sun Jul 09 10:14:43 IST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015d-25a9-fc47-0000137b34b0 
+on database directory memory:D:\Geeks\sts_workspace\SpringBootQuickStart\testdb with class loader org.springframework.boot.loader.LaunchedURLClassLoader@33c7353a 
+Loaded from jar:file:/D:/Geeks/sts_workspace/SpringBootQuickStart/target/SpringBootQuickStart-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.12.1.1.jar!/
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_131-b11
 user.dir=D:\Geeks\sts_workspace\SpringBootQuickStart
