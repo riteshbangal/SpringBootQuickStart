@@ -30,7 +30,7 @@ public class TopicPersistentService {
 		return topicRepository.findOne(id);
 	}
 	
-	public List<Topic> getTopicsById(List<String> ids) {
+	public List<Topic> getTopicsByIds(List<String> ids) {
 		return (List<Topic>) topicRepository.findAll(ids);
 	}
 

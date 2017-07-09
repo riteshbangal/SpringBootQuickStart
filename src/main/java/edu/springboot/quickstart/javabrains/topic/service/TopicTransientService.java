@@ -29,7 +29,7 @@ public class TopicTransientService {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Topic> getTopicsById(List<String> ids) {
+	public List<Topic> getTopicsByIds(List<String> ids) {
 		return (List<Topic>) topics.stream()
 				.filter(t -> ids.contains(t.getId()));
 	}
